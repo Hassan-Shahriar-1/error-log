@@ -1,0 +1,15 @@
+{
+    "name": "shahriar/error-loger",
+    "description": "Laravel Error Loger",
+    "autoload": {
+        "psr-4": {
+            "Shahriar\\ErrorLoger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hassan Shahriar"
+        }
+    ],
+    "require": {}
+}
