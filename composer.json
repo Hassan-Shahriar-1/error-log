@@ -8,8 +8,21 @@
     },
     "authors": [
         {
-            "name": "Hassan Shahriar"
+            "name": "Hassan Shahriar",
+            "email": "hassanshahriar18@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.2",
+        "illuminate/database": "^6.0",
+        "laravel/framework": "^6.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shahriar\\ErrorLoger\\ErrorLoggerServiceProvider"
+            ]
+        }
+    }
 }
